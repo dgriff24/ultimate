@@ -61,7 +61,7 @@ while pc >= 0 and pc < len(lines):
       elif parts[1] == 'HOME':
          a = pop()
          stack.insert(0, a)
-   elif instr == "CALL":
+   elif instr == "PULL":
       try:
          stack.append(ord(input("")[0]))   
       except IndexError:
