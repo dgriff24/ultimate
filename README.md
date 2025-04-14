@@ -24,12 +24,8 @@ a<br>
 s<br>
 d<br>
 f<br>
-a<br>
-s<br>
-d<br>
-f<br>
 <br>
-fdsafdsa<br>
+fdsa<br>
 
 `python ultimate.py examples/cat.ulti` <br>
 a<br>
