@@ -15,3 +15,29 @@ Ultimate is a stack-based esoteric programming language inspired by [BeeScript](
 | FORCE HOME | Pop the top of the stack and push it to the bottom |
 | FORCE AWAY | Remove the bottom value of the stack and push it to the top |
 | BREAK | Terminate program execution |
+
+
+### Here are some examples of code inputs and outputs:
+
+`python ultimate.py examples/reversestring.ulti` <br>
+a<br>
+s<br>
+d<br>
+f<br>
+a<br>
+s<br>
+d<br>
+f<br>
+<br>
+fdsafdsa<br>
+
+`python ultimate.py examples/cat.ulti` <br>
+a<br>
+a<br>
+
+Note on `cat`: because it only accepts 1 character at a time, it can only print one character.
+
+`python ultimate.py examples/repeater.ulti`<br>
+a<br>
+4<br>
+aaaa<br>
