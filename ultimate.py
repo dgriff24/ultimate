@@ -51,7 +51,7 @@ while pc >= 0 and pc < len(lines):
          if a == 0:
             pc = line - 1 # - 1 again because we're incrementing pc each instruction
       except:
-         err("Error: Invalid instruction argument for FLY")
+         err("Error: Invalid instruction argument for CHECK")
    elif instr == "FORCE":
       if len(parts) < 2:
          err("Error: Expected to specify FORCE")
